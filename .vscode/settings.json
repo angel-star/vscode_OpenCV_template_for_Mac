@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "/Users/zjx/anaconda3/bin/python3",
+    "code-runner.executorMap": {
+        "c": "cd $dir && make  && ./$fileNameWithoutExt && make clean",
+        "cpp": "cd $dir && make  && ./$fileNameWithoutExt && make clean"
+    },
+    "editor.renderWhitespace": "all",
+    "editor.renderLineHighlight": "all",
+    "editor.formatOnSave": true,
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.enableAppInsights": false,
+    "C_Cpp.updateChannel": "Insiders",
+    "[makefile]": {
+        "editor.insertSpaces": true
+    },
+    "C_Cpp.default.includePath": [
+        "/usr/local/Cellar/opencv@3/3.4.5/include",
+        "${workspaceFolder}"
+    ]
+}
